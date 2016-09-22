@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFC8EEBE1D949B1700C04AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8EEBD1D949B1700C04AAA /* AppDelegate.swift */; };
+		FFC8EEC01D949B1700C04AAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8EEBF1D949B1700C04AAA /* ViewController.swift */; };
+		FFC8EEC31D949B1800C04AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC8EEC11D949B1800C04AAA /* Main.storyboard */; };
+		FFC8EEC51D949B1800C04AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC8EEC41D949B1800C04AAA /* Assets.xcassets */; };
+		FFC8EEC81D949B1800C04AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC8EEC61D949B1800C04AAA /* LaunchScreen.storyboard */; };
+		FFC8EED31D949B1800C04AAA /* TakilmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8EED21D949B1800C04AAA /* TakilmTests.swift */; };
+		FFC8EEDE1D949B1800C04AAA /* TakilmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8EEDD1D949B1800C04AAA /* TakilmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFC8EECF1D949B1800C04AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC8EEB21D949B1700C04AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC8EEB91D949B1700C04AAA;
+			remoteInfo = Takilm;
+		};
+		FFC8EEDA1D949B1800C04AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC8EEB21D949B1700C04AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC8EEB91D949B1700C04AAA;
+			remoteInfo = Takilm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFC8EEBA1D949B1700C04AAA /* Takilm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Takilm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC8EEBD1D949B1700C04AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFC8EEBF1D949B1700C04AAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFC8EEC21D949B1800C04AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFC8EEC41D949B1800C04AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFC8EEC71D949B1800C04AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFC8EEC91D949B1800C04AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC8EECE1D949B1800C04AAA /* TakilmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakilmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC8EED21D949B1800C04AAA /* TakilmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakilmTests.swift; sourceTree = "<group>"; };
+		FFC8EED41D949B1800C04AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC8EED91D949B1800C04AAA /* TakilmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakilmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC8EEDD1D949B1800C04AAA /* TakilmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakilmUITests.swift; sourceTree = "<group>"; };
+		FFC8EEDF1D949B1800C04AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC8EEB71D949B1700C04AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC8EECB1D949B1800C04AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC8EED61D949B1800C04AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFC8EEB11D949B1700C04AAA = {
+			isa = PBXGroup;
+			children = (
+				FFC8EEBC1D949B1700C04AAA /* Takilm */,
+				FFC8EED11D949B1800C04AAA /* TakilmTests */,
+				FFC8EEDC1D949B1800C04AAA /* TakilmUITests */,
+				FFC8EEBB1D949B1700C04AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC8EEBB1D949B1700C04AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC8EEBA1D949B1700C04AAA /* Takilm.app */,
+				FFC8EECE1D949B1800C04AAA /* TakilmTests.xctest */,
+				FFC8EED91D949B1800C04AAA /* TakilmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC8EEBC1D949B1700C04AAA /* Takilm */ = {
+			isa = PBXGroup;
+			children = (
+				FFC8EEBD1D949B1700C04AAA /* AppDelegate.swift */,
+				FFC8EEBF1D949B1700C04AAA /* ViewController.swift */,
+				FFC8EEC11D949B1800C04AAA /* Main.storyboard */,
+				FFC8EEC41D949B1800C04AAA /* Assets.xcassets */,
+				FFC8EEC61D949B1800C04AAA /* LaunchScreen.storyboard */,
+				FFC8EEC91D949B1800C04AAA /* Info.plist */,
+			);
+			path = Takilm;
+			sourceTree = "<group>";
+		};
+		FFC8EED11D949B1800C04AAA /* TakilmTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFC8EED21D949B1800C04AAA /* TakilmTests.swift */,
+				FFC8EED41D949B1800C04AAA /* Info.plist */,
+			);
+			path = TakilmTests;
+			sourceTree = "<group>";
+		};
+		FFC8EEDC1D949B1800C04AAA /* TakilmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFC8EEDD1D949B1800C04AAA /* TakilmUITests.swift */,
+				FFC8EEDF1D949B1800C04AAA /* Info.plist */,
+			);
+			path = TakilmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC8EEB91D949B1700C04AAA /* Takilm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC8EEE21D949B1800C04AAA /* Build configuration list for PBXNativeTarget "Takilm" */;
+			buildPhases = (
+				FFC8EEB61D949B1700C04AAA /* Sources */,
+				FFC8EEB71D949B1700C04AAA /* Frameworks */,
+				FFC8EEB81D949B1700C04AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Takilm;
+			productName = Takilm;
+			productReference = FFC8EEBA1D949B1700C04AAA /* Takilm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFC8EECD1D949B1800C04AAA /* TakilmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC8EEE51D949B1800C04AAA /* Build configuration list for PBXNativeTarget "TakilmTests" */;
+			buildPhases = (
+				FFC8EECA1D949B1800C04AAA /* Sources */,
+				FFC8EECB1D949B1800C04AAA /* Frameworks */,
+				FFC8EECC1D949B1800C04AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC8EED01D949B1800C04AAA /* PBXTargetDependency */,
+			);
+			name = TakilmTests;
+			productName = TakilmTests;
+			productReference = FFC8EECE1D949B1800C04AAA /* TakilmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFC8EED81D949B1800C04AAA /* TakilmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC8EEE81D949B1800C04AAA /* Build configuration list for PBXNativeTarget "TakilmUITests" */;
+			buildPhases = (
+				FFC8EED51D949B1800C04AAA /* Sources */,
+				FFC8EED61D949B1800C04AAA /* Frameworks */,
+				FFC8EED71D949B1800C04AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC8EEDB1D949B1800C04AAA /* PBXTargetDependency */,
+			);
+			name = TakilmUITests;
+			productName = TakilmUITests;
+			productReference = FFC8EED91D949B1800C04AAA /* TakilmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC8EEB21D949B1700C04AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Muh Rusdi";
+				TargetAttributes = {
+					FFC8EEB91D949B1700C04AAA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FFC8EECD1D949B1800C04AAA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFC8EEB91D949B1700C04AAA;
+					};
+					FFC8EED81D949B1800C04AAA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFC8EEB91D949B1700C04AAA;
+					};
+				};
+			};
+			buildConfigurationList = FFC8EEB51D949B1700C04AAA /* Build configuration list for PBXProject "Takilm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC8EEB11D949B1700C04AAA;
+			productRefGroup = FFC8EEBB1D949B1700C04AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC8EEB91D949B1700C04AAA /* Takilm */,
+				FFC8EECD1D949B1800C04AAA /* TakilmTests */,
+				FFC8EED81D949B1800C04AAA /* TakilmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC8EEB81D949B1700C04AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC8EEC81D949B1800C04AAA /* LaunchScreen.storyboard in Resources */,
+				FFC8EEC51D949B1800C04AAA /* Assets.xcassets in Resources */,
+				FFC8EEC31D949B1800C04AAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC8EECC1D949B1800C04AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC8EED71D949B1800C04AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC8EEB61D949B1700C04AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC8EEC01D949B1700C04AAA /* ViewController.swift in Sources */,
+				FFC8EEBE1D949B1700C04AAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC8EECA1D949B1800C04AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC8EED31D949B1800C04AAA /* TakilmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC8EED51D949B1800C04AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC8EEDE1D949B1800C04AAA /* TakilmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFC8EED01D949B1800C04AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC8EEB91D949B1700C04AAA /* Takilm */;
+			targetProxy = FFC8EECF1D949B1800C04AAA /* PBXContainerItemProxy */;
+		};
+		FFC8EEDB1D949B1800C04AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC8EEB91D949B1700C04AAA /* Takilm */;
+			targetProxy = FFC8EEDA1D949B1800C04AAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFC8EEC11D949B1800C04AAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC8EEC21D949B1800C04AAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFC8EEC61D949B1800C04AAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC8EEC71D949B1800C04AAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFC8EEE01D949B1800C04AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFC8EEE11D949B1800C04AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFC8EEE31D949B1800C04AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Takilm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrcode.Takilm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FFC8EEE41D949B1800C04AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Takilm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrcode.Takilm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FFC8EEE61D949B1800C04AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TakilmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrcode.TakilmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Takilm.app/Takilm";
+			};
+			name = Debug;
+		};
+		FFC8EEE71D949B1800C04AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TakilmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrcode.TakilmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Takilm.app/Takilm";
+			};
+			name = Release;
+		};
+		FFC8EEE91D949B1800C04AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TakilmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrcode.TakilmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Takilm;
+			};
+			name = Debug;
+		};
+		FFC8EEEA1D949B1800C04AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TakilmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrcode.TakilmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Takilm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC8EEB51D949B1700C04AAA /* Build configuration list for PBXProject "Takilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC8EEE01D949B1800C04AAA /* Debug */,
+				FFC8EEE11D949B1800C04AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC8EEE21D949B1800C04AAA /* Build configuration list for PBXNativeTarget "Takilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC8EEE31D949B1800C04AAA /* Debug */,
+				FFC8EEE41D949B1800C04AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFC8EEE51D949B1800C04AAA /* Build configuration list for PBXNativeTarget "TakilmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC8EEE61D949B1800C04AAA /* Debug */,
+				FFC8EEE71D949B1800C04AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFC8EEE81D949B1800C04AAA /* Build configuration list for PBXNativeTarget "TakilmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC8EEE91D949B1800C04AAA /* Debug */,
+				FFC8EEEA1D949B1800C04AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC8EEB21D949B1700C04AAA /* Project object */;
+}
